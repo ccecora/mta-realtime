@@ -1,0 +1,89 @@
+# =====================
+# Operating System
+# =====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =====================
+# IDE / Editor
+# =====================
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# Go
+# =====================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+coverage.out
+
+# Build directories
+/bin/
+/lib/
+/pkg/
+
+# Dependency directories (here or in submodules)
+vendor/
+
+# =====================
+# Python
+# =====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+
+# =====================
+# Protobuf / Generated
+# =====================
+# If you generate Python bindings
+*_pb2.py
+# If you generate Go bindings in a separate folder, you might ignore build artifacts,
+# but usually you commit .pb.go
+
+# =====================
+# Logs & Misc
+# =====================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# npm/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
